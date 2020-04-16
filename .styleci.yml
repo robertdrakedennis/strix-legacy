@@ -1,0 +1,16 @@
+php:
+  preset: laravel
+  disabled:
+    - concat_without_spaces
+  enabled:
+    - concat_with_spaces
+  finder:
+    not-name:
+      - index.php
+      - server.php
+js:
+  finder:
+    not-name:
+      - webpack.mix.js
+css: true
+vue: true

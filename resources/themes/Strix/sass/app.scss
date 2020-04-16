@@ -1,0 +1,39 @@
+@import "themes/default";
+
+@import "~tailwindcss/base";
+
+@import "~tailwindcss/components";
+
+.header-scroll{
+    height: 4rem !important;
+    background-color: var(--theme-custom-color-primary-bg);
+}
+
+@responsive {
+    .bg-custom-blog-gradient{
+        background: var(--theme-custom-blog-gradient)
+    }
+
+    .bg-custom-tile-gradient{
+        background: var(--theme-custom-tile-gradient)
+    }
+}
+
+@import "components/components";
+
+@import "~tailwindcss/utilities";
+
+@import "utilities/general";
+
+#wrapper:before {
+    background-image: var(--theme-texture-overlay);
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 500;
+    pointer-events: none;
+    opacity: .8;
+}

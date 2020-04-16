@@ -1,0 +1,32 @@
+@responsive {
+    .bg-cover {
+        background-size: cover
+    }
+
+    .bg-center{
+        background-position: center
+    }
+
+    .transition-all {
+        transition: all 0.2s
+    }
+
+    .bg-transparent{
+        background-color: transparent
+    }
+
+    .-inset-16{
+        top: -16px;
+        right: -16px;
+        bottom: -16px;
+        left: -16px;
+    }
+
+    .theme-filter-backdrop{
+        filter: blur(var(--theme-custom-blur)) brightness(var(--theme-custom-brightness-medium));
+    }
+
+    .theme-filter-gradient{
+        -webkit-mask-image: var(--theme-custom-gradient);
+    }
+}

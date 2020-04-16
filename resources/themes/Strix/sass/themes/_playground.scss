@@ -1,0 +1,36 @@
+:root{
+    --theme-custom-color-primary: rgb(39, 42, 49);
+    --theme-custom-color-primary-bg: #0f131a;
+    --theme-custom-color-primary-bg-transparent: rgba(28, 28, 28, .6);
+    --theme-custom-color-primary-highlight: #4a4a4a;
+    --theme-custom-color-primary-text: #fff;
+    --theme-custom-color-primary-body-text: rgba(245, 245, 245, 0.6);
+    --theme-custom-color-accent: #3f93ef;
+    --theme-custom-color-accent-text: #fff;
+    --theme-custom-color-accent-hover: #338cee;
+    --theme-custom-color-accent-hover-inverse: #338cee;
+
+    --theme-custom-color-footer-bg: #fff;
+    --theme-custom-color-footer-header-text: #272a31;
+    --theme-custom-color-footer-link-text: rgba(39,42,49,.5);
+
+    --theme-custom-color-border: rgba(39,42,49, .1);
+
+    --theme-custom-blur: 5px;
+    --theme-custom-brightness-medium: 50%;
+
+    --theme-custom-gradient: -webkit-linear-gradient(top, white 20%, transparent 99%);
+    --theme-custom-tile-gradient: var(--theme-custom-color-primary);
+    --theme-custom-blog-gradient: -webkit-linear-gradient(bottom, rgba(15, 19, 26, 1) 20%, rgba(15, 19, 26, .6) 99%);
+
+    --theme-texture-overlay: none;
+
+    --font-display: 'Open Sans', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+
+    --font-weight-default: 400;
+    --font-weight-display: 900;
+    --font-weight-btn: 600;
+
+    --rounded-btn: 32px;
+}

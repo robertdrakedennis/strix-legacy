@@ -1,0 +1,92 @@
+/**
+ * Standardize button styles across dashboard
+ */
+.btn {
+    @apply .inline-flex .items-center .justify-center .p-3 .uppercase .tracking-wide .text-sm .transition-all;
+
+    &.btn-success {
+        @apply .bg-green-500 .text-green-100;
+
+        &:hover:not(:disabled) {
+            @apply .bg-green-600;
+        }
+    }
+
+    &.btn-warning {
+        @apply .bg-yellow-500 .text-yellow-100;
+
+        &:hover:not(:disabled) {
+            @apply .bg-yellow-600;
+        }
+    }
+
+    &.btn-danger {
+        @apply .bg-red-500 .text-red-100;
+
+        &:hover:not(:disabled) {
+            @apply .bg-red-600;
+        }
+    }
+
+    &.btn-info {
+        @apply .bg-blue-500 .text-blue-100;
+
+        &:hover:not(:disabled) {
+            @apply .bg-blue-600;
+        }
+
+    }
+
+    &.btn-light {
+        @apply .bg-gray-200 .text-black;
+
+        &:hover:not(:disabled) {
+            @apply .bg-gray-300;
+        }
+    }
+
+    &.btn-dark {
+        @apply .bg-gray-900 .text-gray-200;
+
+        &:hover:not(:disabled) {
+            @apply .bg-gray-800;
+        }
+    }
+
+    &.btn-neutral {
+        @apply .bg-gray-200 .text-gray-700;
+
+        &:hover:not(:disabled) {
+            @apply .bg-gray-300;
+        }
+    }
+
+    /**
+     * Button Sizes
+     */
+    &.btn-xl {
+        @apply .p-4 .w-full;
+    }
+
+    &.btn-lg {
+        @apply .p-4;
+    }
+
+    &.btn-sm {
+        @apply .p-2;
+    }
+
+    &.btn-xs {
+        @apply .p-2 .text-xs;
+    }
+
+
+    &:focus {
+        @apply .outline-none;
+    }
+
+    &:disabled, &.disabled {
+        opacity: 0.55;
+        cursor: default;
+    }
+}

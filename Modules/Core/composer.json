@@ -1,0 +1,25 @@
+{
+    "name": "Quub/core",
+    "description": "Core functions, helpers, and dependencies of Strix",
+    "authors": [
+        {
+            "name": "Quub LLC",
+            "email": "admin@quub.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    }
+}

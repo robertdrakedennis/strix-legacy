@@ -1,0 +1,25 @@
+{
+    "name": "Quub/user",
+    "description": "",
+    "authors": [
+        {
+            "name": "Quub LLC",
+            "email": "admin@quub.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\User\\Providers\\UserServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\User\\": ""
+        }
+    }
+}
